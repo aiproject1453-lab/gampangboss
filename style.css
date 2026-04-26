@@ -1302,6 +1302,25 @@ footer {
 @media (max-width: 768px) {
     .nav-links {
         display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: var(--bg-card);
+        flex-direction: column;
+        padding: 20px;
+        border-bottom: 1px solid var(--border-color);
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        z-index: 100;
+    }
+    .nav-links.active {
+        display: flex;
+    }
+    #mobile-menu-btn {
+        display: flex !important;
+    }
+    .btn-beli-sekarang {
+        display: none;
     }
     .grid-2-col, .promo-banner, .footer-grid {
         grid-template-columns: 1fr;
