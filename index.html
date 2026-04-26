@@ -15,9 +15,7 @@
     <!-- Navbar -->
     <nav class="navbar">
         <div class="container nav-container">
-            <a href="#" class="logo">
-                <i class="fa-solid fa-layer-group text-primary"></i> gampangboss
-            </a>
+            <a href="#" class="logo" id="main-logo"></a>
             <ul class="nav-links">
                 <li><a href="#" class="active">Beranda</a></li>
                 <li><a href="#produk">Produk <i class="fa-solid fa-chevron-down text-xs"></i></a></li>
@@ -28,7 +26,8 @@
             </ul>
             <div class="nav-actions" style="display: flex; gap: 16px; align-items: center;">
                 <button id="theme-toggle" class="btn btn-outline" style="padding: 10px; border-radius: 50%; width: 42px; height: 42px;"><i class="fa-solid fa-moon"></i></button>
-                <a href="#produk" class="btn btn-primary"><i class="fa-solid fa-bag-shopping"></i> Beli Sekarang</a>
+                <a href="#produk" class="btn btn-primary btn-beli-sekarang"><i class="fa-solid fa-bag-shopping"></i> Beli Sekarang</a>
+                <button id="mobile-menu-btn" class="btn btn-outline" style="padding: 10px; border-radius: 8px; width: 42px; height: 42px; display: none;"><i class="fa-solid fa-bars"></i></button>
             </div>
         </div>
     </nav>
@@ -404,10 +403,8 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="f-brand">
-                    <a href="#" class="logo">
-                        <i class="fa-solid fa-layer-group text-primary"></i> gampangboss
-                    </a>
-                    <p>Menyediakan berbagai produk digital premium untuk membantu Anda berkembang lebih cepat dan
+                    <a href="#" class="logo" id="footer-logo"></a>
+                    <p id="footer-tagline">Menyediakan berbagai produk digital premium untuk membantu Anda berkembang lebih cepat dan
                         efisien.</p>
                     <div class="social-links">
                         <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
@@ -432,6 +429,13 @@
                         <li><a href="#">Cara Pembelian</a></li>
                         <li><a href="#">Kebijakan Refund</a></li>
                         <li><a href="#">Syarat & Ketentuan</a></li>
+                    </ul>
+                </div>
+                <div class="f-links" id="footer-contact-section" style="display: none;">
+                    <h4>Hubungi Kami</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-envelope text-primary" style="margin-right: 8px;"></i> <span id="footer-email"></span></li>
+                        <li id="footer-website-item" style="display: none;"><i class="fa-solid fa-globe text-primary" style="margin-right: 8px;"></i> <a href="#" id="footer-website-link">Website</a></li>
                     </ul>
                 </div>
                 <div class="f-links">
@@ -466,7 +470,7 @@
     </footer>
 
     <!-- Floating WhatsApp -->
-    <a href="#" class="floating-wa"><i class="fa-brands fa-whatsapp"></i></a>
+    <a href="#" class="floating-wa" id="whatsapp-btn"><i class="fa-brands fa-whatsapp"></i></a>
 
     <script src="script.js"></script>
 </body>
