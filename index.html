@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gampangboss - Produk Digital Premium</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-layer-group text-primary"></i> gampangboss
+            </a>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Beranda</a></li>
+                <li><a href="#produk">Produk <i class="fa-solid fa-chevron-down text-xs"></i></a></li>
+                <li><a href="#testimoni">Testimoni</a></li>
+                <li><a href="#keuntungan">Keuntungan</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+            <div class="nav-actions" style="display: flex; gap: 16px; align-items: center;">
+                <button id="theme-toggle" class="btn btn-outline" style="padding: 10px; border-radius: 50%; width: 42px; height: 42px;"><i class="fa-solid fa-moon"></i></button>
+                <a href="#produk" class="btn btn-primary"><i class="fa-solid fa-bag-shopping"></i> Beli Sekarang</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge-accent">
+                    <i class="fa-solid fa-star text-warning"></i> Solusi Digital untuk Bisnis & Produktivitas
+                </div>
+                <h1>Dapatkan Berbagai <span>Aplikasi</span>, <span>eBook</span> & <span
+                        class="text-gradient">Template</span> Premium untuk Bisnis Anda</h1>
+                <p>Semua produk kami dibuat untuk membantu Anda bekerja lebih cepat, lebih mudah, dan lebih efektif
+                    dengan teknologi Google.</p>
+
+                <ul class="hero-features">
+                    <li><i class="fa-solid fa-check-circle text-success"></i> Instan Akses</li>
+                    <li><i class="fa-solid fa-check-circle text-success"></i> Lifetime Update</li>
+                    <li><i class="fa-solid fa-check-circle text-success"></i> Support Eksklusif</li>
+                    <li><i class="fa-solid fa-check-circle text-success"></i> Aman & Terpercaya</li>
+                </ul>
+
+                <div class="hero-cta">
+                    <a href="#produk" class="btn btn-primary btn-lg"><i class="fa-solid fa-cart-shopping"></i> Lihat
+                        Semua Produk</a>
+                    <a href="#demo" class="btn btn-outline btn-lg"><i class="fa-solid fa-play"></i> Lihat Demo</a>
+                </div>
+
+                <div class="trust-strip">
+                    <p>Telah dipercaya oleh <span class="text-primary font-bold">1.000+</span> pengguna</p>
+                    <div class="trust-avatars">
+                        <img src="https://i.pravatar.cc/100?img=1" alt="User">
+                        <img src="https://i.pravatar.cc/100?img=2" alt="User">
+                        <img src="https://i.pravatar.cc/100?img=3" alt="User">
+                        <img src="https://i.pravatar.cc/100?img=4" alt="User">
+                        <img src="https://i.pravatar.cc/100?img=5" alt="User">
+                        <div class="avatar-count">1K+</div>
+                        <div class="trust-rating">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i>
+                            </div>
+                            <span>4.9/5 dari 500+ review</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="glass-mockup">
+                    <div class="mockup-header">
+                        <div class="dots"><span></span><span></span><span></span></div>
+                        <div class="mockup-title">Dashboard Penjualan</div>
+                    </div>
+                    <!-- Mockup content representation -->
+                    <div class="mockup-body">
+                        <div class="mockup-sidebar">
+                            <div class="m-item active"><i class="fa-solid fa-chart-pie"></i> Dashboard</div>
+                            <div class="m-item"><i class="fa-solid fa-box"></i> Produk</div>
+                            <div class="m-item"><i class="fa-solid fa-cart-shopping"></i> Order</div>
+                            <div class="m-item"><i class="fa-solid fa-users"></i> Pelanggan</div>
+                            <div class="m-item"><i class="fa-solid fa-file-invoice"></i> Laporan</div>
+                        </div>
+                        <div class="mockup-main">
+                            <div class="m-stats">
+                                <div class="m-stat-card">
+                                    <div class="m-label">Total Penjualan</div>
+                                    <div class="m-value">Rp 250.000.000</div>
+                                    <div class="m-trend success"><i class="fa-solid fa-arrow-up"></i> 12.5%</div>
+                                </div>
+                                <div class="m-stat-card">
+                                    <div class="m-label">Total Order</div>
+                                    <div class="m-value">1.250</div>
+                                    <div class="m-trend success"><i class="fa-solid fa-arrow-up"></i> 8.2%</div>
+                                </div>
+                                <div class="m-stat-card">
+                                    <div class="m-label">Total Pelanggan</div>
+                                    <div class="m-value">820</div>
+                                    <div class="m-trend success"><i class="fa-solid fa-arrow-up"></i> 15.3%</div>
+                                </div>
+                            </div>
+                            <div class="m-charts">
+                                <div class="m-chart placeholder-chart"></div>
+                                <div class="m-chart placeholder-pie"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="integration-badge">
+                    <span>Semua produk terintegrasi dengan</span>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Google_Sheets_logo_%282014-2020%29.svg"
+                        alt="Google Sheets" width="20">
+                    <strong>Google Sheets</strong>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Categories Section -->
+    <section class="categories" id="kategori">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="subtitle">KOLEKSI PRODUK</span>
+                <h2>Berbagai Produk Digital untuk Kebutuhan Anda</h2>
+                <p>Pilih produk yang sesuai dengan kebutuhan bisnis atau pengembangan diri Anda</p>
+            </div>
+
+            <div class="category-grid">
+                <div class="category-card card-blue">
+                    <div class="cat-header">
+                        <div class="cat-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <span class="cat-count">8 Produk</span>
+                    </div>
+                    <h3>Aplikasi</h3>
+                    <p>Sistem aplikasi berbasis Google Apps Script untuk otomasi bisnis Anda.</p>
+                    <ul class="cat-features">
+                        <li><i class="fa-solid fa-check"></i> Web App Premium</li>
+                        <li><i class="fa-solid fa-check"></i> Dashboard Admin</li>
+                        <li><i class="fa-solid fa-check"></i> Sistem Otomatisasi</li>
+                        <li><i class="fa-solid fa-check"></i> Mudah Digunakan</li>
+                    </ul>
+                    <a href="#produk" class="cat-link" onclick="filterCategory('aplikasi')">Lihat Aplikasi <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="category-card card-green">
+                    <div class="cat-header">
+                        <div class="cat-icon"><i class="fa-solid fa-book"></i></div>
+                        <span class="cat-count">15 Produk</span>
+                    </div>
+                    <h3>eBook</h3>
+                    <p>Panduan praktis, strategi, dan knowledge digital untuk meningkatkan skill Anda.</p>
+                    <ul class="cat-features">
+                        <li><i class="fa-solid fa-check"></i> Format PDF Berkualitas</li>
+                        <li><i class="fa-solid fa-check"></i> Materi Terstruktur</li>
+                        <li><i class="fa-solid fa-check"></i> Langsung Bisa Dipraktikkan</li>
+                        <li><i class="fa-solid fa-check"></i> Update Berkala</li>
+                    </ul>
+                    <a href="#produk" class="cat-link" onclick="filterCategory('ebook')">Lihat eBook <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="category-card card-orange">
+                    <div class="cat-header">
+                        <div class="cat-icon"><i class="fa-solid fa-file-invoice"></i></div>
+                        <span class="cat-count">12 Produk</span>
+                    </div>
+                    <h3>Template</h3>
+                    <p>Template siap pakai untuk mempercepat pekerjaan dan bisnis Anda.</p>
+                    <ul class="cat-features">
+                        <li><i class="fa-solid fa-check"></i> Siap Gunakan</li>
+                        <li><i class="fa-solid fa-check"></i> Mudah Diedit</li>
+                        <li><i class="fa-solid fa-check"></i> Hemat Waktu</li>
+                        <li><i class="fa-solid fa-check"></i> Profesional</li>
+                    </ul>
+                    <a href="#produk" class="cat-link" onclick="filterCategory('template')">Lihat Template <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Highlights -->
+    <section class="value-highlights">
+        <div class="container">
+            <div class="highlight-grid">
+                <div class="h-item">
+                    <div class="h-icon"><i class="fa-solid fa-money-bill-wave"></i></div>
+                    <div class="h-text">
+                        <h4>Bayar Sekali</h4>
+                        <p>Akses Selamanya</p>
+                    </div>
+                </div>
+                <div class="h-item">
+                    <div class="h-icon"><i class="fa-solid fa-download"></i></div>
+                    <div class="h-text">
+                        <h4>Download Instan</h4>
+                        <p>Langsung setelah pembayaran</p>
+                    </div>
+                </div>
+                <div class="h-item">
+                    <div class="h-icon"><i class="fa-solid fa-rotate"></i></div>
+                    <div class="h-text">
+                        <h4>Update Seumur Hidup</h4>
+                        <p>Produk selalu diperbarui</p>
+                    </div>
+                </div>
+                <div class="h-item">
+                    <div class="h-icon"><i class="fa-solid fa-headset"></i></div>
+                    <div class="h-text">
+                        <h4>Support Prioritas</h4>
+                        <p>Bantuan cepat & responsif</p>
+                    </div>
+                </div>
+                <div class="h-item">
+                    <div class="h-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <div class="h-text">
+                        <h4>Aman 100%</h4>
+                        <p>Transaksi terenkripsi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products" id="produk">
+        <div class="container">
+            <div class="section-header flex-between">
+                <div>
+                    <span class="subtitle">PRODUK TERLARIS</span>
+                    <h2>Produk Pilihan & Best Seller</h2>
+                    <p>Produk terbaik dengan rating tertinggi dari pelanggan kami</p>
+                </div>
+                <a href="#" class="btn btn-primary">Lihat Semua Produk</a>
+            </div>
+
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="aplikasi">Aplikasi</button>
+                <button class="filter-btn" data-filter="ebook">eBook</button>
+                <button class="filter-btn" data-filter="template">Template</button>
+            </div>
+
+            <!-- Products will be injected here via JS -->
+            <div class="product-grid" id="product-container">
+                <div class="loading-spinner">Loading products...</div>
+            </div>
+
+            <!-- Bundle Promo -->
+            <div class="bundle-promo mt-5">
+                <div class="bundle-content">
+                    <div class="b-icon"><i class="fa-solid fa-boxes-stacked"></i></div>
+                    <div>
+                        <h3 class="text-primary">Lebih Hemat dengan Paket Bundle</h3>
+                        <p>Dapatkan beberapa produk sekaligus dengan harga lebih hemat!</p>
+                    </div>
+                </div>
+                <a href="#" class="btn btn-light">Lihat Paket Bundle</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Sections Wrapper (Testimonial, Stats, Promo) -->
+    <section class="bottom-sections bg-darker">
+        <div class="container">
+            <div class="grid-2-col">
+                <!-- Testimonials -->
+                <div class="testimonials" id="testimoni">
+                    <span class="subtitle">TESTIMONI</span>
+                    <h2>Apa Kata Mereka?</h2>
+
+                    <div class="testimonial-slider" id="testimonial-container">
+                        <!-- Injected via JS -->
+                    </div>
+                </div>
+
+                <!-- Stats / Why Us -->
+                <div class="why-us" id="keuntungan">
+                    <span class="subtitle">KENAPA MEMILIH gampangboss?</span>
+
+                    <div class="why-features">
+                        <div class="w-feat">
+                            <div class="w-icon"><i class="fa-solid fa-gem"></i></div>
+                            <div>
+                                <h4>Produk Berkualitas Premium</h4>
+                                <p>Dibuat dengan standar tinggi dan tested</p>
+                            </div>
+                        </div>
+                        <div class="w-feat">
+                            <div class="w-icon"><i class="fa-solid fa-bolt"></i></div>
+                            <div>
+                                <h4>Mudah Digunakan</h4>
+                                <p>Cocok untuk pemula maupun profesional</p>
+                            </div>
+                        </div>
+                        <div class="w-feat">
+                            <div class="w-icon"><i class="fa-solid fa-arrows-rotate"></i></div>
+                            <div>
+                                <h4>Update Rutin</h4>
+                                <p>Selalu update fitur dan konten terbaru</p>
+                            </div>
+                        </div>
+                        <div class="w-feat">
+                            <div class="w-icon"><i class="fa-solid fa-users-rays"></i></div>
+                            <div>
+                                <h4>Komunitas Eksklusif</h4>
+                                <p>Bergabung dengan ribuan member aktif</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stats-grid">
+                        <div class="stat-box">
+                            <h3>1.000+</h3>
+                            <p>Pengguna Aktif</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3>35+</h3>
+                            <p>Produk Digital</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3>98%</h3>
+                            <p>Kepuasan Pelanggan</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3>24/7</h3>
+                            <p>Support Ready</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promo / Urgency Section -->
+    <section class="promo-section">
+        <div class="container">
+            <div class="promo-banner">
+                <div class="promo-text">
+                    <span class="subtitle text-danger">PENAWARAN TERBATAS</span>
+                    <h2>Harga Spesial Untuk Anda!</h2>
+                    <p>Jangan lewatkan kesempatan ini, harga akan kembali normal setelah waktu berakhir</p>
+
+                    <div class="countdown" id="countdown">
+                        <div class="cd-box"><span id="days">02</span><small>Hari</small></div>
+                        <div class="cd-box"><span id="hours">12</span><small>Jam</small></div>
+                        <div class="cd-box"><span id="minutes">45</span><small>Menit</small></div>
+                        <div class="cd-box"><span id="seconds">30</span><small>Detik</small></div>
+                    </div>
+                </div>
+
+                <div class="promo-price-card">
+                    <div class="price-normal">
+                        <span>HARGA NORMAL</span>
+                        <strike>Rp 1.500.000</strike>
+                    </div>
+                    <div class="price-promo">
+                        <span>HARI INI HANYA</span>
+                        <h3>Rp 499.000</h3>
+                        <p class="text-success text-sm">Anda Hemat Rp 1.001.000 (67%)</p>
+                    </div>
+                    <a href="#produk" class="btn btn-primary btn-block btn-lg"><i class="fa-solid fa-cart-shopping"></i>
+                        Ambil Sekarang</a>
+                    <p class="guarantee"><i class="fa-solid fa-shield-check"></i> Garansi 7 Hari Uang Kembali Jika Tidak
+                        Puas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <div class="cta-box">
+                <div class="cta-content">
+                    <div class="cta-icon"><i class="fa-solid fa-gift"></i></div>
+                    <div>
+                        <h2>Siap Mengembangkan Bisnis & Skill Anda?</h2>
+                        <p>Bergabunglah dengan ribuan pengguna yang telah merasakan manfaat produk digital gampangboss.
+                        </p>
+                    </div>
+                </div>
+                <a href="#produk" class="btn btn-primary">Jelajahi Semua Produk <i
+                        class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="f-brand">
+                    <a href="#" class="logo">
+                        <i class="fa-solid fa-layer-group text-primary"></i> gampangboss
+                    </a>
+                    <p>Menyediakan berbagai produk digital premium untuk membantu Anda berkembang lebih cepat dan
+                        efisien.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="f-links">
+                    <h4>Produk</h4>
+                    <ul>
+                        <li><a href="#">Aplikasi</a></li>
+                        <li><a href="#">eBook</a></li>
+                        <li><a href="#">Template</a></li>
+                        <li><a href="#">Tools & Lainnya</a></li>
+                    </ul>
+                </div>
+                <div class="f-links">
+                    <h4>Informasi</h4>
+                    <ul>
+                        <li><a href="#">Tentang Kami</a></li>
+                        <li><a href="#">Cara Pembelian</a></li>
+                        <li><a href="#">Kebijakan Refund</a></li>
+                        <li><a href="#">Syarat & Ketentuan</a></li>
+                    </ul>
+                </div>
+                <div class="f-links">
+                    <h4>Bantuan</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Panduan Penggunaan</a></li>
+                        <li><a href="#">Komunitas</a></li>
+                    </ul>
+                </div>
+                <div class="f-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Dapatkan update produk terbaru dan promo spesial!</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Masukkan email Anda" required>
+                        <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom flex-between">
+                <p>&copy; 2024 gampangboss. All rights reserved.</p>
+                <div class="payment-methods">
+                    <span>Pembayaran Aman</span>
+                    <!-- Logos placeholders -->
+                    <i class="fa-brands fa-cc-visa"></i>
+                    <i class="fa-brands fa-cc-mastercard"></i>
+                    <i class="fa-brands fa-paypal"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="#" class="floating-wa"><i class="fa-brands fa-whatsapp"></i></a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
